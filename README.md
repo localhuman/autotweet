@@ -3,8 +3,6 @@ Python Auto Tweet
 
 Right now the script is set to loop.  I'll probably add options to either loop at intervals or tweet once so it can be used with cron.
 
-## Install Via pip ##
-`pip install autotweet`
 
 ## Twitter App Credentials ##
 -copy `env.example.py` to `env.py`

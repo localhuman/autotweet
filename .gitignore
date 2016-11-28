@@ -1,5 +1,9 @@
 venv
+dist
+build
 .idea
 env.py
-
+*.egg-info
 *.pyc
+
+setup.cfg
