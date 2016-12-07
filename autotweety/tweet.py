@@ -16,7 +16,7 @@ api = twitter.Api(consumer_key=CONSUMER_KEY,
 def dotweet():
     epoch = int(time.time())
     margin_add = int(( epoch -1480344915 ) / 60.0 )
-    margin = 2150000 + margin_add
+    margin = 2700000 + margin_add
 
     tweets = [
         ".@realDonaldTrump has lost the popular vote to @HillaryClinton by %s votes" % margin,
@@ -27,6 +27,11 @@ def dotweet():
         "There is always a philosophy for lack of courage. @realDonaldTrump lost by %s votes" % margin,
         ".@realDonaldTrump if i were you i would hate to be alone. Lost by %s votes" % margin,
         ".@realDonaldTrump how many million good men and women have died to secure the freedoms you are shitting upon? Lost by %s votes" % margin,
+	".@realDonaldTrump delete yur account. lost by %s votes" % margin,
+	".@realDonaldTrump lost by %s votes. sad!" % margin,
+	"In the depth of winter, I finally learned that within me there lay %s votes that @realDonaldTrump lost by" % margin,
+	"I shall tell you a great secret, @realDonaldTrump. Do not wait for the last judgment, you have already lost by %s votes" % margin,
+	".@readDonaldTrump, Nobody realizes that some people expend tremendous energy merely to lose by %s votes." % margin
     ]
 
     tweet = random.choice(tweets)
